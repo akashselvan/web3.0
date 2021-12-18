@@ -1,5 +1,5 @@
 import { useMoralis } from 'react-moralis';
-import Avatar from '../Home/Avatar.js';
+import Avatar from '../home/avatar.js';
 import TimeAgo from 'timeago-react';
 
 const Message = ({ message }) => {

@@ -1,7 +1,7 @@
 
-import Header from './Header.js';
+import Header from './header.js';
 import ScrollToBottom from 'react-scroll-to-bottom';
-import Messages from '../Messages/Messages.js';
+import Messages from '../messages/messages.js';
 
 const FirstPage= () => {
   return (

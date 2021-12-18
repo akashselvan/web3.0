@@ -1,7 +1,7 @@
 import { useMoralis } from 'react-moralis';
 import Image from 'next/image';
-import Avatar from './Avatar.js';
-import ChangeUserName from './ChangeUserName.js';
+import Avatar from './avatar.js';
+import ChangeUserName from './changeUserName.js';
 import Metaverse from '../login/metaverse.jpg';
 
 const Header = () => {
