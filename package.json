@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@sweetalert2/theme-bootstrap-4": "^5.0.8",
+    "@walletconnect/ethereum-provider": "^1.7.0",
+    "next": "latest",
+    "npm-git-install": "^0.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-moralis": "^0.3.8",
+    "react-scroll-to-bottom": "^4.2.0",
+    "sweetalert2": "^11.3.0",
+    "tailwind-scrollbar-hide": "^1.1.6",
+    "timeago-react": "^3.0.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^3.0.0"
+  }
+}
