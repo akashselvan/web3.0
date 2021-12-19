@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { useMoralis } from 'react-moralis';
-import Metaverse from '../login/metaverse.jpg';
+
 
 const Login = () => {
   const { authenticate } = useMoralis();

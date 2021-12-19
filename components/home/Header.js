@@ -1,8 +1,8 @@
 import { useMoralis } from 'react-moralis';
 import Image from 'next/image';
-import Avatar from './avatar.js';
-import ChangeUserName from './changeUserName.js';
-import Metaverse from '../login/metaverse.jpg';
+import Avatar from './Avatar.js';
+import ChangeUserName from './ChangeUsername';
+
 
 const Header = () => {
   const { user } = useMoralis();
@@ -12,7 +12,7 @@ const Header = () => {
       <div className="grid grid-cols-5 lg:grid-cols-6 items-end lg:items-center">
         <div className="relative h-20 w-20 2xl:h-24 2xl:w-24 mx-auto hidden lg:inline-grid border-2 border-gray-400 rounded-full">
           <Image
-            src={Metaverse}
+            src="https://links.papareact.com/3pi"
             layout="fill"
             objectFit="cover"
             className="rounded-full"
